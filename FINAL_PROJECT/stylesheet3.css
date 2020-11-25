@@ -1,0 +1,119 @@
+.button1 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+    }
+
+.button2 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
+
+.button3 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
+
+.button4 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
+
+h1 {
+    background-color: white;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    padding: 20px;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.images {
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+    width: 75%;
+}
+
+.column1 {
+    float: left;
+    width: 33.33%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(184, 255, 184);
+    padding: 10px;
+}
+
+.SnowLeopard {
+    font-size: 50px;
+    text-align: center;
+}
+
+.column2 {
+    float: left;
+    width: 33.33%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(168, 255, 168);
+    padding: 10px;
+}
+
+.AfricanWildDog {
+    font-size: 50px;
+    text-align: center;
+}
+
+.column3 {
+    float: left;
+    width: 33.33%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(184, 255, 184);
+    padding: 10px;
+}
+
+.SumatranTiger {
+    font-size: 50px;
+    text-align: center;
+}
+
+.row {
+    margin: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
